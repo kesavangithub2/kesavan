@@ -1,4 +1,3 @@
-import * from 'React';
 
 function App() {
   return (

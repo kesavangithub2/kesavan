@@ -1,0 +1,23 @@
+.header{
+    overflow: hidden;
+    background-color:#4700D8;
+    padding: 20px 10px;
+    height: 80px;
+    width: 100%;
+}
+
+.hdesk{
+    color: white;
+    font-size: 28px;
+    display: none;
+}
+.hdesk y{
+    padding-left: 80px;
+}
+
+@media  (min-width: 600px) {
+ .hdesk{
+     display: inline;
+ }
+ 
+}

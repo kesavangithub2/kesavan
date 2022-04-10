@@ -41,8 +41,10 @@ const Results = () => (
  
  <p><i class="fa-solid fa-house"></i>  Home </p>
  
- 
- 
+ <p><i class="fa-solid fa-list-check"></i> Project</p>
+ <p><i class="fa-solid fa-building-columns"></i> Education</p>
+ <p><i class="fa-solid fa-address-card"></i> About me</p>
+ <p><i class="fa-solid fa-address-book"></i> Contact</p>
  
   </div>
 )

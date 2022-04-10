@@ -6,10 +6,11 @@ export default function Home() {
     <div>
    <div className='header'>
 <div className='hdesk'>
-    <y> Home</y>
+    <y1> Home</y1>
     <y>Project</y>
-
-
+    <y>Education</y>
+<y>About me</y>
+<y>Contact</y>
 </div>
 
 

@@ -18,9 +18,22 @@
     padding-left: 100px;
 }
 
+.hmobile{
+    display: none;
+    color: white;
+}
+
 @media  (min-width: 600px) {
  .hdesk{
      display: inline;
  }
  
 }
+
+@media  (max-width: 600px) {
+    .hmobile{
+        display: inline;
+    }
+    
+   }
+   

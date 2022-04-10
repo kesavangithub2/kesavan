@@ -13,7 +13,10 @@ export default function Home() {
 <y>Contact</y>
 </div>
 
+<div className='hmobile'>
 
+
+</div>
    </div>
 
     </div>

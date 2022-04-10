@@ -1,15 +1,17 @@
 .header{
-    overflow: hidden;
     background-color:#4700D8;
-    padding: 20px 10px;
+    
     height: 80px;
     width: 100%;
 }
-
+.hdesk1{
+    padding-top: 20px;
+}
 .hdesk{
     color: white;
     font-size: 20px;
     display: none;
+    
 }
 .hdesk y1{
     padding-left: 350px;
@@ -21,6 +23,20 @@
 .hmobile{
     display: none;
     color: white;
+    
+}
+.hmobile .barm{
+    padding-left: 90%;
+}
+
+.mdr{
+    text-align: center;
+    overflow: visible;
+    background-color: #4700D8;
+   
+    height: 100px;
+    width: 100%;
+    
 }
 
 @media  (min-width: 600px) {

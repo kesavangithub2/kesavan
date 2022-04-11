@@ -1,5 +1,5 @@
 .header{
-    background-color:#4700D8;
+    
     
     height: 80px;
     width: 100%;
@@ -8,13 +8,12 @@
     padding-top: 20px;
 }
 .hdesk{
-    color: white;
     font-size: 20px;
     display: none;
     
 }
 .hdesk y1{
-    padding-left: 350px;
+    padding-left: 300px;
 }
 .hdesk y{
     padding-left: 100px;
@@ -22,7 +21,6 @@
 
 .hmobile{
     display: none;
-    color: white;
     
 }
 .hmobile .barm{

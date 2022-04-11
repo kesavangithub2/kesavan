@@ -4,10 +4,18 @@ import './css/Home.css';
 export default function Home() {
   const [showResults, setShowResults] = React.useState(false)
   const onClick = () => setShowResults( showResults ?  false : true)
-
+  const [showResult, setShowResult] = React.useState(false)
+  const onClicks = () => setShowResult( showResult ?  false : true)
+var bg="green";
   return (
     <div>
-   <div className='header'>
+   <div className='header' style={{color:"black", background:bg}}>
+   <div>
+<i class="  fa-solid fa-moon fa-2xl" type="submit"  onClick={onClicks} />
+      { showResult ? <Result /> : null }
+   
+   <i class="fa-solid fa-brightness"></i>
+   </div>
 <div className='hdesk1'>
 <div className='hdesk'>
     <y1> Home</y1>
@@ -46,5 +54,13 @@ const Results = () => (
  <p><i class="fa-solid fa-address-card"></i> About me</p>
  <p><i class="fa-solid fa-address-book"></i> Contact</p>
  
+  </div>
+)
+
+
+
+const Result= () => (
+  <div>
+ bg="red";
   </div>
 )

@@ -4,15 +4,14 @@ import './css/Home.css';
 export default function Home() {
   const [showResults, setShowResults] = React.useState(false)
   const onClick = () => setShowResults( showResults ?  false : true)
-  const [showResult, setShowResult] = React.useState(false)
-  const onClicks = () => setShowResult( showResult ?  false : true)
-var bg="green";
+  const [bg, setbg] = React.useState({bgc:"black" })
+  const onClicks = () => setbg({  bgc : "white" })
+
   return (
     <div>
-   <div className='header' style={{color:"black", background:bg}}>
+   <div className='header' style={{color:"black", background:bg.bgc}}>
    <div>
 <i class="  fa-solid fa-moon fa-2xl" type="submit"  onClick={onClicks} />
-      { showResult ? <Result /> : null }
    
    <i class="fa-solid fa-brightness"></i>
    </div>
@@ -58,9 +57,3 @@ const Results = () => (
 )
 
 
-
-const Result= () => (
-  <div>
- bg="red";
-  </div>
-)
